@@ -1,0 +1,30 @@
+{
+  "name": "api-ii",
+  "version": "1.0.0",
+    "engines":{
+        "node": "10.16.0",
+        "npm":"6.9.0"
+    },
+  "description": "Might not finish in time",
+  "main": "\"/src/server.js\"",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtc3585/http-api-assignment-ii.git"
+  },
+  "author": "Justin Connolly",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jtc3585/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/jtc3585/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
